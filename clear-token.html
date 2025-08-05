@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Expired Token</title>
+</head>
+<body>
+    <h1>Clear Expired Token</h1>
+    <button onclick="clearTokens()">Clear Tokens</button>
+    <button onclick="checkTokens()">Check Tokens</button>
+    <div id="result"></div>
+
+    <script>
+        function clearTokens() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            document.getElementById('result').innerHTML = '<p style="color: green;">Tokens cleared successfully!</p>';
+        }
+
+        function checkTokens() {
+            const token = localStorage.getItem('token');
+            const user = localStorage.getItem('user');
+            
+            let result = '<h3>Token Status:</h3>';
+            result += '<p><strong>Token:</strong> ' + (token ? 'Present' : 'Missing') + '</p>';
+            result += '<p><strong>User:</strong> ' + (user ? 'Present' : 'Missing') + '</p>';
+            
+            if (token) {
+                try {
+                    const payload = JSON.parse(atob(token.split('.')[1]));
+                    const currentTime = Date.now() / 1000;
+                    const isExpired = payload.exp < currentTime;
+                    
+                    result += '<p><strong>Token Expiration:</strong> ' + new Date(payload.exp * 1000).toLocaleString() + '</p>';
+                    result += '<p><strong>Current Time:</strong> ' + new Date().toLocaleString() + '</p>';
+                    result += '<p><strong>Expired:</strong> ' + (isExpired ? 'YES' : 'NO') + '</p>';
+                } catch (error) {
+                    result += '<p style="color: red;"><strong>Error parsing token:</strong> ' + error.message + '</p>';
+                }
+            }
+            
+            document.getElementById('result').innerHTML = result;
+        }
+
+        // Auto-check on load
+        checkTokens();
+    </script>
+</body>
+</html> 
+<html>
+<head>
+    <title>Clear Expired Token</title>
+</head>
+<body>
+    <h1>Clear Expired Token</h1>
+    <button onclick="clearTokens()">Clear Tokens</button>
+    <button onclick="checkTokens()">Check Tokens</button>
+    <div id="result"></div>
+
+    <script>
+        function clearTokens() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            document.getElementById('result').innerHTML = '<p style="color: green;">Tokens cleared successfully!</p>';
+        }
+
+        function checkTokens() {
+            const token = localStorage.getItem('token');
+            const user = localStorage.getItem('user');
+            
+            let result = '<h3>Token Status:</h3>';
+            result += '<p><strong>Token:</strong> ' + (token ? 'Present' : 'Missing') + '</p>';
+            result += '<p><strong>User:</strong> ' + (user ? 'Present' : 'Missing') + '</p>';
+            
+            if (token) {
+                try {
+                    const payload = JSON.parse(atob(token.split('.')[1]));
+                    const currentTime = Date.now() / 1000;
+                    const isExpired = payload.exp < currentTime;
+                    
+                    result += '<p><strong>Token Expiration:</strong> ' + new Date(payload.exp * 1000).toLocaleString() + '</p>';
+                    result += '<p><strong>Current Time:</strong> ' + new Date().toLocaleString() + '</p>';
+                    result += '<p><strong>Expired:</strong> ' + (isExpired ? 'YES' : 'NO') + '</p>';
+                } catch (error) {
+                    result += '<p style="color: red;"><strong>Error parsing token:</strong> ' + error.message + '</p>';
+                }
+            }
+            
+            document.getElementById('result').innerHTML = result;
+        }
+
+        // Auto-check on load
+        checkTokens();
+    </script>
+</body>
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

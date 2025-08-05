@@ -1,0 +1,104 @@
+[
+  {
+    "privateKey": "0xb2dd49f64ccb9cae9d241ff5f34cfb3fbd642a22e728d2e3ed6767e7866bb9f1",
+    "name": "Wallet1",
+    "address": "0x2825f35ad13b1e88Fe32AB2Ca29d074843Fe3167",
+    "chains": [
+      "ethereum",
+      "polygon",
+      "bsc",
+      "arbitrum"
+    ],
+    "baseTokenRecipient": "0xc8bf8bc34874e07f6a0d4abc8be22ba9e372631b",
+    "addedAt": "2025-06-01T00:39:03.803Z",
+    "lastChecked": null,
+    "status": "active",
+    "tokens": [
+      {
+        "tokenAddress": "0xc8bf8bc34874e07f6a0d4abc8be22ba9e372631b",
+        "recipientAddress": "0x90d29F420Cf66BF96f9bFa8314c591E192e9954b",
+        "name": "Token1",
+        "chain": "ethereum",
+        "tokenType": "erc20",
+        "addedAt": "2025-06-01T00:39:25.144Z",
+        "totalTransferred": "0",
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "lastChecked": null,
+        "lastTransfer": null
+      }
+    ],
+    "totalTransferred": "0",
+    "transactions": 0,
+    "successfulTransactions": 0,
+    "failedTransactions": 0,
+    "gasUsed": "0",
+    "isPaused": false,
+    "lastActive": 1748738343808,
+    "chainStats": {
+      "ethereum": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "lastChecked": null
+      },
+      "polygon": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "lastChecked": null
+      },
+      "bsc": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "lastChecked": null
+      },
+      "arbitrum": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "lastChecked": null
+      }
+    },
+    "nativeTokenStats": {
+      "ethereum": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "totalTransferred": "0",
+        "lastTransfer": null
+      },
+      "polygon": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "totalTransferred": "0",
+        "lastTransfer": null
+      },
+      "bsc": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "totalTransferred": "0",
+        "lastTransfer": null
+      },
+      "arbitrum": {
+        "transactions": 0,
+        "successfulTransactions": 0,
+        "failedTransactions": 0,
+        "gasUsed": "0",
+        "totalTransferred": "0",
+        "lastTransfer": null
+      }
+    }
+  }
+]
