@@ -1,0 +1,17 @@
+{
+    "chains": ["ethereum", "bsc", "polygon", "arbitrum"],
+    "gasPriceMultiplier": 1.5,
+    "gasPriceCacheDuration": 1000,
+    "nonceUpdateInterval": 2000,
+    "metricsUpdateInterval": 3000,
+    "backupCheckInterval": 100,
+    "minBalanceToKeep": "0",
+    "nativeTokenSupport": true,
+    "nativeTokenGasLimit": 21000,
+    "nativeTokenMinBalance": "0.001",
+    "enableLogging": true,
+    "logLevel": "info",
+    "enableMetrics": true,
+    "metricsInterval": 5000,
+    "tokenStandards": ["erc20", "erc721", "erc1155"]
+} 

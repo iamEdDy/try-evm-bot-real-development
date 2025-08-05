@@ -1,0 +1,204 @@
+{
+    "ethereum": {
+        "erc20": {
+            "name": "ERC20",
+            "abi": "erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "ERC721",
+            "abi": "erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        },
+        "erc1155": {
+            "name": "ERC1155",
+            "abi": "erc1155.json",
+            "functions": {
+                "balanceOf": "balanceOf(address,uint256)",
+                "balanceOfBatch": "balanceOfBatch(address[],uint256[])",
+                "safeTransferFrom": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+                "safeBatchTransferFrom": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)"
+            }
+        }
+    },
+    "bsc": {
+        "bep20": {
+            "name": "BEP20",
+            "abi": "bep20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "bep721": {
+            "name": "BEP721",
+            "abi": "bep721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "polygon": {
+        "erc20": {
+            "name": "Polygon ERC20",
+            "abi": "polygon-erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Polygon ERC721",
+            "abi": "polygon-erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "arbitrum": {
+        "erc20": {
+            "name": "Arbitrum ERC20",
+            "abi": "arbitrum-erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Arbitrum ERC721",
+            "abi": "arbitrum-erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "optimism": {
+        "erc20": {
+            "name": "Optimism ERC20",
+            "abi": "erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Optimism ERC721",
+            "abi": "erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "base": {
+        "erc20": {
+            "name": "Base ERC20",
+            "abi": "erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Base ERC721",
+            "abi": "erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "avalanche": {
+        "erc20": {
+            "name": "Avalanche ERC20",
+            "abi": "erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Avalanche ERC721",
+            "abi": "erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    },
+    "fantom": {
+        "erc20": {
+            "name": "Fantom ERC20",
+            "abi": "erc20.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "transfer": "transfer(address,uint256)",
+                "decimals": "decimals()",
+                "symbol": "symbol()",
+                "name": "name()"
+            }
+        },
+        "erc721": {
+            "name": "Fantom ERC721",
+            "abi": "erc721.json",
+            "functions": {
+                "balanceOf": "balanceOf(address)",
+                "ownerOf": "ownerOf(uint256)",
+                "transferFrom": "transferFrom(address,address,uint256)",
+                "name": "name()",
+                "symbol": "symbol()"
+            }
+        }
+    }
+}

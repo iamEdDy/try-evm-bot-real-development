@@ -1,0 +1,34 @@
+{
+  "chains": [
+    "ethereum",
+    "bsc",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "base",
+    "avalanche",
+    "fantom"
+  ],
+  "gasPriceMultiplier": 1.5,
+  "gasPriceCacheDuration": 1000,
+  "nonceUpdateInterval": 2000,
+  "metricsUpdateInterval": 3000,
+  "backupCheckInterval": 100,
+  "minBalanceToKeep": "0",
+  "nativeTokenSupport": true,
+  "nativeTokenGasLimit": 21000,
+  "nativeTokenMinBalance": "0.001",
+  "checkInterval": 500,
+  "maxGasPrice": 100,
+  "minBalanceThreshold": 0.001,
+  "enableMempoolMonitoring": true,
+  "enableWebSocket": true,
+  "maxRetries": 3,
+  "retryDelay": 1000,
+  "enableLogging": true,
+  "logLevel": "info",
+  "enableMetrics": true,
+  "metricsInterval": 5000,
+  "tokenStandards": ["erc20", "erc721", "erc1155"]
+}
+ 
